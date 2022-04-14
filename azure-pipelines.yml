@@ -28,7 +28,7 @@ stages:
 
     - script: echo "DAS IST EIN TEST."
       displayName: 'TEST OUTPUT'
-
+      condition: and(succeeded(), eq($(date:dd),14))
     - task: Npm@1
       displayName: 'Run npm install'
       inputs:
