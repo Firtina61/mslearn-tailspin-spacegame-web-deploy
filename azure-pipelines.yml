@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 schedules:
-- cron: "5 * * * 0-6"
+- cron: "5 * * * 4"
   displayName: Daily build
   always: true
 
