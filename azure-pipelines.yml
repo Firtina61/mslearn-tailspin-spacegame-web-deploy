@@ -1,11 +1,6 @@
 trigger:
 - '*'
 
-schedules:
-- cron: "5 * * * 4"
-  displayName: Daily build
-  always: true
-
 variables:
   buildConfiguration: 'Release'
   releaseBranchName: 'release'
